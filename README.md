@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date:13.5.25
 
 ## AIM:
  To design a website to calculate the power of a lamp filament in an incandescent bulb in the server side. 
@@ -32,12 +32,81 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>SURFACE AREA OF RIGHT CYLINDER</title>
+<h2 align="center">STEPHEN RAJ Y</h2>
+<h3 align="center">212223230217</h3>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<style type="text/css">
+body {
+    background-color: rgb(207, 155, 59);
+}
+.edge {
+    width: 100%; /* Set width to 100% */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Set height to 100% of the viewport height */
+}
+.box {
+    border: Thick dashed rgb(193, 117, 18);
+    width: 500px;
+    min-height: 300px;
+    font-size: 20px;
+    background-color: pink;
+    padding: 20px; /* Add padding for better appearance */
+}
+.formelt {
+    color: black;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+h1 {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="edge">
+    <div class="box">
+        <h1>SURFACE AREA OF RIGHT CYLINDER </h1>
+        <form method="POST">
+            {% csrf_token %}
+            <div class="formelt">
+                Radius : <input type="text" name="Radius" value="{{ r }}"></input>(in m)<br/>
+            </div>
+            <div class="formelt">
+                Height : <input type="text" name="height" value="{{ h }}"></input>(in m)<br/>
+            </div>
+            <div class="formelt">
+                <input type="submit" value="Calculate"></input><br/>
+            </div>
+            <div class="formelt">
+                Area : <input type="text" name="area" value="{{ area }}"></input>m<sup>2</sup><br/>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+```
 
 
 ## SERVER SIDE PROCESSING:
-
+![alt text](<Screenshot 2025-04-23 111018.png>)
 
 ## HOMEPAGE:
+![Screenshot 2025-05-13 001055](https://github.com/user-attachments/assets/3d24137b-863f-4a0b-87ca-62d7f3dec4b3)
 
 
 ## RESULT:
