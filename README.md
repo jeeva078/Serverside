@@ -103,7 +103,7 @@ h1 {
 
 
 ## SERVER SIDE PROCESSING:
-![Screenshot 2025-05-13 001055](https://github.com/user-attachments/assets/0c2bac3c-8053-432c-81a7-c970a1f72060)
+![Screenshot 2025-04-28 113453](https://github.com/user-attachments/assets/74d59d9f-5615-4bd5-9166-3155f1b6a6b6)
 
 
 ## HOMEPAGE:
